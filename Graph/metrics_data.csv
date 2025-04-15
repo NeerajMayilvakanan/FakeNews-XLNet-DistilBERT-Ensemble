@@ -1,0 +1,17 @@
+Model,Dataset,Split,Accuracy,Precision,Recall,F1_Score
+XLNet,Politifact,Validation,86.7925,88.7097,88.7097,88.7097
+XLNet,Politifact,Testing,89.6226,90.4762,91.9355,91.2000
+XLNet,Gossipcop,Validation,84.5077,88.8239,90.8982,89.8491
+XLNet,Gossipcop,Testing,85.5014,89.6714,91.3329,90.4945
+DistilBERT,Politifact,Validation,84.9057,87.0968,87.0968,87.0968
+DistilBERT,Politifact,Testing,87.7358,94.5455,83.8710,88.8889
+DistilBERT,Gossipcop,Validation,83.9205,86.8687,92.6946,89.6871
+DistilBERT,Gossipcop,Testing,85.8627,88.2022,93.8434,90.9354
+Ensemble (Simple Average),Politifact,Validation,85.8491,87.3016,88.7097,88.0000
+Ensemble (Simple Average),Politifact,Testing,88.6792,94.6429,85.4839,89.8305
+Ensemble (Simple Average),Gossipcop,Validation,84.7787,87.6767,92.8743,90.2006
+Ensemble (Simple Average),Gossipcop,Testing,86.5402,88.7761,94.0825,91.3523
+Ensemble (Majority Vote),Politifact,Validation,84.9057,89.6552,83.8710,86.6667
+Ensemble (Majority Vote),Politifact,Testing,88.6792,96.2963,83.8710,89.6552
+Ensemble (Majority Vote),Gossipcop,Validation,83.9657,90.3622,88.1437,89.2392
+Ensemble (Majority Vote),Gossipcop,Testing,84.8690,90.9425,88.8225,89.8700
